@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fcfafb;
+}
+
+img.logo {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+ul {
+    display: flex;
+    color: black;
+    list-style-type: none;
+    align-items: center;
+    font-weight:800;
+    font-size: 14px;
+    gap: 25px;
+}
+
+.main {
+    display: flex;
+    background-color: #b11c4e;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textmain {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+
+button {
+    display: flex;  
+    background-color: blue; 
+    padding: 8px;
+    color: white; 
+}
+
+img.razvan {
+    max-width: 400px;
+    max-height: 400px;
+}
